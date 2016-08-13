@@ -1,0 +1,22 @@
+node_modules
+app/bower_components
+/dist*
+.tmp
+.sass-cache
+.idea
+*.iml
+
+# Ghost
+*.db
+
+# Gulp generated
+app/assets/css/screen.css
+app/assets/fonts/**/*.css
+app/assets/fonts/Lora-*.woff
+*.zip
+
+# Docker
+docker/ghost/dist
+
+# Sourcemap
+*.map
